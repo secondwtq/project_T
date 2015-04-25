@@ -118,6 +118,8 @@ checkpoint()
 
 coalesce(partitions[, shuffle=False]) # 返回被分为 n 块的 RDD。
 
+getNumPartitions()
+
 SparkContext RDD.context
 
 ###使用 Spark Interactive Shell###
